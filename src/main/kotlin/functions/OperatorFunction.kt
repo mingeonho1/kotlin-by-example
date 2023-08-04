@@ -7,7 +7,7 @@ fun main() {
     println(2 * "하이 ")                                             // 2
 
     operator fun String.get(range: IntRange) = substring(range)     // 3
-    val str = "웃어라! 온 세상이 너와 함께 웃을 것이다."
+    val str = "안녕하세요. 코틀린"
     println(str[0..3])
 }
 
